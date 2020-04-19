@@ -1,0 +1,220 @@
+<style media="screen">
+
+
+.container{
+margin-left: -300px;
+}
+.telinga{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #512700;
+
+    border: 9px solid #C44F07;
+    position: absolute;
+    margin-left: 650px;
+    margin-top: -290px;
+    z-index: 1;
+    animation-name: hey;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+}
+.telingaa{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #512700;
+    margin-top: -300px;
+    margin-left: 480px;
+    z-index: 2;
+    border: 9px solid #C44F07;
+    position: absolute;
+    animation-name: hey;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+}
+@keyframes hey {
+  0%{
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+  30%{
+    -webkit-transform: scaleX(1.25) scaleY(0.75);
+    -ms-transform: scaleX(1.25) scaleY(0.75);
+    transform: scaleX(1.25) scaleY(0.75);
+  }
+  40%{
+    -webkit-transform: scaleX(0.75) scaleY(1.25);
+    -ms-transform: scaleX(0.75) scaleY(1.25);
+    transform: scaleX(0.75) scaleY(1.25);
+  }
+  60%{
+    -webkit-transform: scaleX(1.15) scaleY(0.85);
+    -ms-transform: scaleX(1.15) scaleY(0.85);
+    transform: scaleX(1.15) scaleY(0.85);
+  }
+  100%{
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+}
+.wajah{
+    width: 300px;
+    height: 300px;
+    background: #C44F07;
+    border-radius: 50%;
+    margin-left: 450px;
+    margin-top: 150px;
+}
+.mata{
+    width: 30px;
+    height: 30px;
+    background: black;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 3;
+    margin-top: -200px;
+    margin-left: 550px;
+    animation-name: haha;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+.mataa{
+    width: 30px;
+    height: 30px;
+    background: black;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 3;
+    margin-top: -200px;
+    margin-left: 620px;
+    animation-name: haha;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+@keyframes haha {
+  0%{
+    -webkit-transform: rotateX(-180deg);
+    transform: rotateX(-180deg);
+  }
+  100%{
+    -webkit-transform: rotateX(0deg);
+    transform: rotateX(0deg);
+  }
+}
+.hidung{
+    background: #512700;
+    width: 70px;
+    height: 90px;
+    border-radius: 50%;
+    margin-left: 570px;
+    margin-top: -160px;
+}
+.hkecil{
+    width: 20px;
+    height: 20px;
+    background: black;
+    border-radius: 50%;
+    margin-left: 595px;
+    margin-top: -70px;
+    z-index: 4;
+    border-top-right-radius: 80%;
+    border-top-left-radius: 80%;
+}
+.garis{
+    width: 3px;
+    height: 25px;
+    background: black;
+    margin-left: 603px;
+    margin-top: -10px;
+}
+.garisdegkiri{
+    width: 3px;
+    height: 18px;
+    background: black;
+    margin-left: 600px;
+    margin-top: -9px;
+    transform: rotate(20deg);
+}
+.garisdegkanan{
+    width: 3px;
+    height: 18px;
+    background: black;
+    margin-left: 606px;
+    margin-top: -17px;
+    transform: rotate(-20deg);
+}
+.tangan{
+    width: 100px;
+    height: 40px;
+    margin-left: 400px;
+    margin-top: -50px;
+    border-radius: 50px;
+    background: #512700;
+    border:  10px solid #C44F07;
+    transform: rotate(55deg);
+    animation-name: n;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+.tangann{
+    width: 100px;
+    height: 40px;
+    margin-left: 600px;
+    border-radius: 50px;
+    margin-top: -30px;
+    background: #512700;
+    transform: rotate(55deg);
+    border:  10px solid #C44F07;
+     animation-name: n;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+@keyframes n {
+  0%{
+    -webkit-transform: rotate(55deg);
+    transform: rotate(55deg);
+  }
+  100%{
+    -webkit-transform: rotate(85deg);
+    transform: rotate(85deg);
+  }
+}
+
+
+</style>
+
+<div class="container">
+<div class="wajah"></div>
+<div class="telinga"></div>
+<div class="telingaa"></div>
+<div class="mata"></div>
+<div class="mataa"></div>
+<div class="hidung"></div>
+<div class="hkecil"></div>
+<div class="garis"></div>
+<div class="garisdegkiri"></div>
+<div class="garisdegkanan"></div>
+<div class="tangan"></div>
+<div class="tangann"></div>
+</div>

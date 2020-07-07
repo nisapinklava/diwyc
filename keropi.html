@@ -1,0 +1,325 @@
+<container>
+  <div class="padang"></div>
+  <div class="rumput"></div>
+  <div class="rumput1"></div>
+  <div class="keropi">
+    <div class="mata">
+      <div class="mata1"></div>
+      <div class="mata2"></div>
+      <div class="bolamata1"></div>
+      <div class="bolamata2"></div>
+      <div class="retina1"></div>
+      <div class="retina2"></div>
+    </div>
+    <div class="wajah"></div>
+    <div class="rona1"></div>
+    <div class="rona2"></div>
+    <div class="bibir"></div>
+    <div class="badan"></div>
+    <div class="badan1"></div>
+    <div class="badan2"></div>
+    <div class="lengankanan"></div>
+    <div class="tangankiri"></div>
+    <div class="kaki1"></div>
+    <div class="kaki2"></div>
+  </div>
+</container>
+
+<style>
+body {
+  background: yellowgreen;
+}
+container {
+  height: 120px;
+  width: auto;
+}
+.mata1,
+.mata2 {
+  position: absolute;
+  border: black 5px solid;
+  box-sizing: border-box;
+  z-index: 4;
+}
+embed {
+  display: none;
+}
+.mata1 {
+  background-color: white;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  top: 100px;
+  left: 480px;
+}
+.mata2 {
+  background-color: white;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  top: 110px;
+  left: 595px;
+}
+.bolamata1,
+.bolamata2 {
+  position: absolute;
+  z-index: 5;
+  background-color: black;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.bolamata1 {
+  top: 140px;
+  left: 510px;
+}
+.bolamata2 {
+  top: 155px;
+  left: 615px;
+}
+.retina1,
+.retina2 {
+  background-color: white;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 6;
+}
+.retina1 {
+  top: 155px;
+  left: 515px;
+}
+.retina2 {
+  top: 170px;
+  left: 620px;
+}
+.wajah {
+  background-color: #0db70d;
+  width: 200px;
+  height: 170px;
+  border-radius: 20% 20% 30% 30%;
+  position: absolute;
+  top: 150px;
+  left: 490px;
+  z-index: 3;
+}
+.rona1,
+.rona2 {
+  background-color: hotpink;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 7;
+}
+.rona1 {
+  top: 250px;
+  left: 478px;
+}
+.rona2 {
+  top: 250px;
+  left: 670px;
+}
+.bibir {
+  width: 90px;
+  height: 50px;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom: 4px black solid;
+  background-color: #0db70d;
+  top: 250px;
+  left: 550px;
+  position: absolute;
+  z-index: 8;
+}
+.badan {
+  background-color: red;
+  width: 200px;
+  height: 150px;
+  position: absolute;
+  top: 284px;
+  left: 500px;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-top-right-radius: 50%;
+  z-index: 2;
+}
+.badan1 {
+  background-color: red;
+  width: 100px;
+  height: 150px;
+  position: absolute;
+  top: 280px;
+  left: 476px;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  z-index: 2;
+}
+.badan2 {
+  background-color: red;
+  width: 100px;
+  height: 150px;
+  position: absolute;
+  top: 280px;
+  left: 630px;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  z-index: 2;
+}
+.lengankanan {
+  width: 50px;
+  height: 60px;
+  background-color: #0db70d;
+  transform: rotate(38deg);
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  position: absolute;
+  z-index: 3;
+  top: 320px;
+  left: 455px;
+  border-bottom: dashed black 5px;
+  animation: haihai 1s infinite alternate;
+}
+@keyframes haihai {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(80deg);
+  }
+}
+.tangankiri {
+  width: 50px;
+  height: 60px;
+  background-color: #0db70d;
+  transform: rotate(38deg);
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  position: absolute;
+  z-index: 3;
+  top: 335px;
+  left: 645px;
+  border-bottom: dashed black 5px;
+  animation: haihai 1s infinite alternate;
+}
+.kaki1 {
+  width: 60px;
+  height: 60px;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom: dashed black 5px;
+  position: absolute;
+  background-color: #0db70d;
+  top: 395px;
+  left: 530px;
+  animation: senang 1s infinite;
+}
+.kaki2 {
+  width: 60px;
+  height: 60px;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom: dashed black 5px;
+  position: absolute;
+  background-color: #0db70d;
+  top: 400px;
+  left: 620px;
+  animation: senang 1s infinite;
+}
+@keyframes senang {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(-30deg);
+  }
+  80% {
+    transform: rotate(-50deg);
+  }
+  90% {
+    transform: rotate(-20deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+.padang {
+  position: absolute;
+  margin: auto 40px;
+  width: 400px;
+  height: 250px;
+  background-color: #29ff30;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  left: 330px;
+  top: 240px;
+  border: solid darkgreen 5px;
+}
+.rumput,
+.rumput1 {
+  background-color: yellow;
+  position: absolute;
+  z-index: 1;
+  width: 50px;
+  height: 3px;
+}
+.rumput {
+  transform: rotate(60deg);
+  top: 450px;
+  left: 380px;
+  animation: gerakan 1s infinite reverse;
+}
+.rumput1 {
+  transform: rotate(-60deg);
+  top: 450px;
+  left: 400px;
+  animation: gerakan1 1s infinite reverse;
+}
+@keyframes gerakan {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(10deg);
+  }
+  20% {
+    transform: rotate(20deg);
+  }
+  30% {
+    transform: rotate(40deg);
+  }
+  50% {
+    transform: rotate(50deg);
+  }
+  90% {
+    transform: rotate(80deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+@keyframes gerakan1 {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(-10deg);
+  }
+  20% {
+    transform: rotate(-20deg);
+  }
+  30% {
+    transform: rotate(-40deg);
+  }
+  50% {
+    transform: rotate(-50deg);
+  }
+  90% {
+    transform: rotate(-80deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+</style>
